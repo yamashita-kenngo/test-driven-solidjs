@@ -79,7 +79,7 @@ package.jsonにスクリプトを追加する。
   
   ```json
   "scripts": {
-    "bdd:run": "cypress run --spec cypress/e22/**/*.feature"
+    "bdd:run": "cypress run --spec cypress/e2e/**/*.feature"
   }
   ```
 
