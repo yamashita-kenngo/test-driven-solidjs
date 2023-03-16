@@ -9,10 +9,13 @@
     "serve": "vite preview",
     "cypress:open": "cypress open",
     "cypress:run": "cypress run",
+    "bdd:run": "cypress run --spec cypress/e2e/**/*.feature",
     "test": "vitest"
   },
   "license": "MIT",
   "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^15.1.4",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
     "@solidjs/testing-library": "^0.6.1",
     "cypress": "^12.8.1",
     "jsdom": "^21.1.1",

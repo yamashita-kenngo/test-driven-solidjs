@@ -3,6 +3,8 @@ import type { Component } from 'solid-js';
 import logo from './logo.svg';
 import styles from './App.module.css';
 
+import Container  from './Container';
+
 const App: Component = () => {
   return (
     <div class={styles.App}>
@@ -20,6 +22,7 @@ const App: Component = () => {
           Learn Solid
         </a>
       </header>
+      <Container />
     </div>
   );
 };
