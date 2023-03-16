@@ -26,14 +26,6 @@ package.jsonにCypressのスクリプトを追加する。
   }
 ```
 
-locaclhost:3000にアクセスするために、cypress.jsonを作成する。
-
-```json
-{
-  "baseUrl": "http://localhost:3000"
-}
-```
-
 ## 単体テストの準備
 
 依存パッケージをインストールする。
