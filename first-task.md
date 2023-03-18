@@ -1,6 +1,6 @@
 # Markdownコンテンツの表示をする
 
-GH-2
+[Issue](https://github.com/yamashita-kenngo/test-driven-solidjs/issues/2)
 
 ## 要件
 
