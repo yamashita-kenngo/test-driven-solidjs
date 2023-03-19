@@ -18,4 +18,8 @@
 
 ## やったこと
 
-GitHub CopilotでGhrkin形式のテストを作成した。その内容からChatGPTを使用してCypressのテストコードを作成した.
+1. GitHub CopilotでGhrkin形式のテストを作成した。その内容からChatGPTを使用してCypressのテストコードを作成した。 [commit](67e63a849fc9b7659398d0ef9c8afc2f005bc748)
+
+2. Solidjsのルーティングライブラリをインストールした。 [commit](160f2b22da14acc620445f115c171340379fc05e)
+
+3. 空のMarkdownコンポーネントを作成した。ContainerコンポーネントからMarkdownへのルーティングを形成した。 [commit](5ad37dc6ea46843bdcfdb1277868e4a2eeaf1d81)
