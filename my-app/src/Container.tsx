@@ -5,7 +5,6 @@ import Markdown  from './Markdown';
 const Container: Component = () => {
   return (
     <div>
-      <h1>Hello Solidjs</h1>
       <nav>
         <A href="/markdown">Markdown</A>
       </nav>

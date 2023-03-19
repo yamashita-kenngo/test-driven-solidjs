@@ -8,7 +8,7 @@ import Container  from './Container';
 const App: Component = () => {
   return (
     <div class={styles.App}>
-      <header class={styles.header}>
+      {/* <header class={styles.header}>
         <img src={logo} class={styles.logo} alt="logo" />
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
@@ -21,7 +21,7 @@ const App: Component = () => {
         >
           Learn Solid
         </a>
-      </header>
+      </header> */}
       <Container />
     </div>
   );

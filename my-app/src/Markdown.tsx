@@ -1,9 +1,10 @@
 import type { Component } from 'solid-js';
+import ReadMe from './assets/README.md';
 
 const Markdown: Component = () => {
   return (
     <div>
-      <h1>Hello Markdown</h1>
+      <ReadMe />
     </div>
   );
 };
