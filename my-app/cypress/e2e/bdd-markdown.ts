@@ -22,3 +22,24 @@ Then('I should see the H1 tag and H1 text', () => {
   });
 });
 
+Then("I should see the p tag and p text", () => {
+  cy.get("p").should("be.visible"); // assert that the p tag is visible
+  cy.get("p").contains("p text"); // assert that the p tag contains the expected text
+});
+
+Then("I should see the a tag and a text", () => {
+  cy.get("a").should("be.visible"); // assert that the a tag is visible
+  cy.get("a").contains("a text"); // assert that the a tag contains the expected text
+});
+
+Then("I should see the ul tag and ul text", () => {
+  cy.get("ul").should("be.visible"); // assert that the ul tag is visible
+  cy.get("ul").contains("ul text"); // assert that the ul tag contains the expected text
+});
+
+Then("I should see the li tag and li text", () => {
+  cy.get("li").should("be.visible"); // assert that the li tag is visible
+  cy.get("li").contains("li text"); // assert that the li tag contains the expected text
+});
+
+
