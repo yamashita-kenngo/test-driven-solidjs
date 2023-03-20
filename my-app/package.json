@@ -2,6 +2,7 @@
   "name": "vite-template-solid",
   "version": "0.0.0",
   "description": "",
+  "type": "module",
   "scripts": {
     "start": "vite",
     "dev": "vite",
@@ -22,9 +23,11 @@
     "typescript": "^4.9.5",
     "vite": "^4.1.1",
     "vite-plugin-solid": "^2.5.0",
+    "vite-plugin-solid-markdown": "^0.0.6",
     "vitest": "^0.29.3"
   },
   "dependencies": {
+    "@solidjs/router": "^0.8.0",
     "solid-js": "^1.6.10"
   }
 }
