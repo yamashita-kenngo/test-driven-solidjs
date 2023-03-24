@@ -18,4 +18,5 @@
 ## やったこと
 
 1. StoryBookをインストールした。 [commit](
+https://github.com/yamashita-kenngo/test-driven-solidjs/pull/5
 )
