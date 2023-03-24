@@ -8,6 +8,7 @@ import Container  from './Container';
 const App: Component = () => {
   return (
     <div class={styles.App}>
+      <h1 class="bg-orange-200 font-bold p-4">Vite + Solidjs + Tailwind</h1>
       {/* <header class={styles.header}>
         <img src={logo} class={styles.logo} alt="logo" />
         <p>
