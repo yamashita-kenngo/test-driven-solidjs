@@ -14,7 +14,7 @@ const Demo: Component = () => {
       <Button
         color="accent"
         size="small"
-        onClick={() => {console.log('Clicked'); onSubmit(); init();}}
+        onClick={() => {console.log('Clicked'); onSubmit();}}
       >
         Click Me
       </Button>
