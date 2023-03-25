@@ -8,7 +8,7 @@ const App: Component = () => {
       <header class="bg-orange-200 font-bold p-4">
         <HeaderContainer />
       </header>
-      <main class="bg-blue-200 h-full">
+      <main class="bg-slate-200 h-screen">
         <MainContainer />
       </main>
     </div>

@@ -3,9 +3,12 @@ import { A } from '@solidjs/router';
 
 const HeaderContainer: Component = () => {
   return (
-    <nav>
-      <A href="/demo">Demo</A>
-    </nav>
+    <div>
+      <nav>
+        <A href="/demo">Demo</A>
+      </nav>
+    </div>
+    
   );
 };
 
