@@ -1,8 +1,8 @@
 import type { Component } from "solid-js";
 import Button  from "./../ui/button";
+import Card from "./../ui/card";
 const Demo: Component = () => {
   let input!: HTMLInputElement;
-  let calendarEl!: HTMLDivElement;
   const onSubmit = () => {
     if(!input.value.trim()) return;
     console.log(input.value)
@@ -18,6 +18,34 @@ const Demo: Component = () => {
       >
         Click Me
       </Button>
+      <Card
+        color="brand"
+        size="large"
+        rounded={false}
+      >
+        <h1 style={
+          {
+            display: 'flex',
+            "align-items": 'center',
+        }}>Card Title</h1>
+        <p style={
+          {
+            display: 'flex',
+            "font-size": '20px',
+            "align-items": 'center',
+          }
+        }>
+          Hoge HUGA
+        </p>
+        <ul>
+          <li>
+            <a href="#">Link 1</a>
+          </li>
+          <li>
+            <a href="#">Link 2</a>
+          </li>
+        </ul>
+      </Card>
     </div>
   );
 };
