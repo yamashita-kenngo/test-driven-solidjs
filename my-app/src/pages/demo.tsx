@@ -1,6 +1,7 @@
 import type { Component } from "solid-js";
 import Button  from "./../ui/button";
 import Card from "./../ui/card";
+import Calendar from "../ui/calendar";
 const Demo: Component = () => {
   let input!: HTMLInputElement;
   const onSubmit = () => {
@@ -46,6 +47,20 @@ const Demo: Component = () => {
           </li>
         </ul>
       </Card>
+      <Calendar>
+        <caption>2034年4月</caption>
+        <thead>
+          <tr>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+            <th>Saturday</th>
+            <th>Sunday</th>
+          </tr>
+        </thead>
+      </Calendar>
     </div>
   );
 };
